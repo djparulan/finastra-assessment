@@ -1,0 +1,17 @@
+.profile-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.profile-content-container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  width: 100%;
+  column-gap: 20px;
+}
+
+.back-button {
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
